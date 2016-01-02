@@ -1,0 +1,25 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "Free Code Camp Basejump - URL Shortner Microservice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SaintPeter/basejump-url-shortener.git"
+  },
+  "author": "rex.schrader@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SaintPeter/basejump-url-shortener/issues"
+  },
+  "homepage": "https://github.com/SaintPeter/basejump-url-shortener#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "mongodb": "^2.1.2",
+    "mongoose": "^4.3.4",
+    "valid-url": "^1.0.9"
+  }
+}
